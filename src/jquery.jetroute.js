@@ -81,16 +81,17 @@
             },
             getUrlArray(url){
                 let _url = url.split("/");
-                _url.shift();
+                if (_url[0] === ""){
+                    _url.shift();
+                }
                 return _url;
             }
         };
-
         return routeManager.init();
     };
     $.jetRoute.settings = {
         routes: {},
-        routeType: "window",
+        routeType: "",
         cookieName: ""
     };
 
