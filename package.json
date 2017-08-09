@@ -1,6 +1,6 @@
 {
   "name": "jetroute",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "jetRoute - Simple Route Manager",
   "keywords": [
     "jquery-plugin"
@@ -11,7 +11,7 @@
     "url": "https://github.com/bloo_df"
   },
   "repository": "https://github.com/bloodf/jetRoute",
-  "main": "src/jquery.jetroute.js",
+  "main": "dist/jquery.jetroute.js",
   "license": "Apache 2.0",
   "scripts": {
     "dev": "gulp dev",
